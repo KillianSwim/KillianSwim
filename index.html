@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#071b3a">
+<title>Killian Thompson | Swimmer</title>
+<style>
+:root{--navy:#071b3a;--navy2:#0c2b55;--blue:#1769ff;--cyan:#40d9ff;--white:#f4f9ff;--muted:#a8bed8;--card:rgba(15,43,80,.78);--line:rgba(122,184,255,.22)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 75% 0%,#123e70 0%,transparent 38%),linear-gradient(145deg,#06152e,#071b3a 55%,#08284d);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:100vh}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;gap:18px}.brand{font-weight:900;letter-spacing:.04em}.brand span{color:var(--cyan)}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:white}.btn{border:0;border-radius:12px;padding:11px 16px;font-weight:800;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-1px)}.btn-primary{background:linear-gradient(100deg,var(--blue),#19a9ff);color:white;box-shadow:0 8px 24px #1769ff40}.btn-ghost{border:1px solid var(--line);background:#0c2b55;color:white}.hero{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:40px;padding:66px 0 72px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--cyan);font-size:.8rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}.dot{width:8px;height:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 15px var(--cyan)}h1{font-size:clamp(2.7rem,7vw,5.5rem);line-height:.98;letter-spacing:-.065em;margin:20px 0}h1 span{display:block;color:var(--cyan)}.intro{color:var(--muted);font-size:1.08rem;line-height:1.75;max-width:600px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.hero-card{position:relative;min-height:340px;border:1px solid var(--line);border-radius:28px;overflow:hidden;background:linear-gradient(145deg,#123d6d,#0a2448 65%,#06172f);display:flex;align-items:center;justify-content:center;box-shadow:0 30px 80px #0003}.water{position:absolute;inset:0;background:repeating-linear-gradient(168deg,transparent 0 22px,#40d9ff0b 23px 25px);transform:scale(1.2)}.swim-icon{font-size:8rem;filter:drop-shadow(0 10px 25px #40d9ff45);position:relative}.hero-card-label{position:absolute;bottom:20px;left:20px;right:20px;padding:15px 17px;border:1px solid var(--line);border-radius:16px;background:#061a34c9;backdrop-filter:blur(12px)}.hero-card-label small{display:block;color:var(--cyan);letter-spacing:.12em;text-transform:uppercase;font-weight:800}.hero-card-label strong{display:block;font-size:1.1rem;margin-top:4px}.section{padding:32px 0 64px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:22px}.section-head h2{font-size:clamp(1.7rem,4vw,2.4rem);letter-spacing:-.04em;margin:8px 0 0}.section-head p{margin:0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid var(--line);border-radius:20px;padding:22px;background:var(--card);box-shadow:0 15px 40px #00000012}.card h3{margin:0 0 8px;font-size:1.1rem}.card p{margin:0;color:var(--muted);line-height:1.6}.metric{font-size:2rem;font-weight:900;letter-spacing:-.04em;color:var(--cyan);margin:12px 0 4px}.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:#091f3d}.table{width:100%;border-collapse:collapse;min-width:500px}.table th,.table td{text-align:left;padding:15px 18px;border-bottom:1px solid var(--line)}.table th{color:var(--cyan);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase}.table td{color:#e8f3ff}.table tr:last-child td{border-bottom:0}.empty{text-align:center;padding:26px;color:var(--muted)}.item-actions{display:flex;gap:7px}.mini{font-size:.78rem;padding:7px 10px;border-radius:8px}.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:6px 10px;color:var(--cyan);font-size:.8rem;font-weight:800}.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.edit-hint{display:none;color:#bdeeff;font-size:.86rem;margin-top:12px}.editing .edit-hint{display:block}.editing [data-editable="true"]{outline:1px dashed #40d9ff88;outline-offset:4px;border-radius:4px}.editing .edit-only{display:inline-flex}.edit-only{display:none}.edit-bar{display:none;position:sticky;top:0;z-index:10;padding:10px 0;background:#031127ee;backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}.editing .edit-bar{display:block}.editbar-inner{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.editbar-inner span{color:var(--muted);font-size:.9rem}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#eafaff;color:#06203c;padding:12px 18px;border-radius:12px;font-weight:800;box-shadow:0 10px 40px #0005;display:none;z-index:20}.modal{position:fixed;inset:0;background:#0009;display:none;align-items:center;justify-content:center;padding:18px;z-index:30}.modal.open{display:flex}.modal-box{width:min(480px,100%);background:#092345;border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 30px 80px #0008}.modal-box h3{margin-top:0}.form{display:grid;gap:12px}.form label{font-size:.85rem;color:var(--muted);display:grid;gap:6px}.form input,.form textarea,.form select{width:100%;background:#06172f;color:white;border:1px solid #31547b;border-radius:10px;padding:12px;font:inherit}.form textarea{min-height:90px;resize:vertical}.modal-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:18px}.hidden{display:none!important}.muted{color:var(--muted)}@media(max-width:760px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding:38px 0 45px;gap:28px}.hero-card{min-height:260px}.swim-icon{font-size:6rem}.grid{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.section{padding-bottom:45px}.footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="edit-bar"><div class="wrap editbar-inner"><span>✏️ Edit mode is on — changes save in this browser.</span><div><button class="btn btn-ghost" id="exportBtn">Export backup</button> <button class="btn btn-primary" id="saveBtn">Save & finish</button></div></div></div>
+<header class="wrap nav">
+  <a class="brand" href="#home">KT<span>.</span> SWIMMING</a>
+  <nav class="navlinks"><a href="#bests">Personal bests</a><a href="#achievements">Achievements</a><a href="#galas">Galas</a></nav>
+  <button class="btn btn-ghost" id="editBtn">✏️ Edit website</button>
+</header>
+<main class="wrap">
+  <section class="hero" id="home">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> Competitive swimmer</div>
+      <h1 data-field="name">Killian <span>Thompson.</span></h1>
+      <p class="intro" data-field="intro" data-editable="true">Chasing personal bests, building consistency, and getting faster one length at a time.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#bests">View my times ↗</a><a class="btn btn-ghost" href="#achievements">My journey</a></div>
+      <p class="edit-hint">Tip: click the intro text or name while editing to change it.</p>
+    </div>
+    <div class="hero-card"><div class="water"></div><div class="swim-icon" aria-hidden="true">🏊‍♂️</div><div class="hero-card-label"><small>Swimmer profile</small><strong data-field="tagline" data-editable="true">Focus. Effort. Progress.</strong></div></div>
+  </section>
+
+  <section class="section" id="bests">
+    <div class="section-head"><div><div class="eyebrow">⏱️ The numbers</div><h2>Personal bests</h2></div><button class="btn btn-primary edit-only" id="addPB">＋ Add a time</button></div>
+    <div class="table-wrap"><table class="table"><thead><tr><th>Event</th><th>Course</th><th>Time</th><th>Date</th><th class="edit-only">Edit</th></tr></thead><tbody id="pbRows"></tbody></table><div id="pbEmpty" class="empty hidden">No personal bests added yet. Turn on Edit website to add your first time.</div></div>
+  </section>
+
+  <section class="section" id="achievements">
+    <div class="section-head"><div><div class="eyebrow">🥇 Milestones</div><h2>Achievements</h2></div><button class="btn btn-primary edit-only" id="addAchievement">＋ Add achievement</button></div>
+    <div class="grid" id="achievementGrid"></div>
+  </section>
+
+  <section class="section" id="galas">
+    <div class="section-head"><div><div class="eyebrow">📅 What's next</div><h2>Upcoming galas</h2></div><button class="btn btn-primary edit-only" id="addGala">＋ Add gala</button></div>
+    <div class="grid" id="galaGrid"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><div class="eyebrow">🌊 The mindset</div><h2>One swim at a time.</h2></div></div>
+    <div class="card"><p data-field="quote" data-editable="true">Progress isn't always a medal or a record. Sometimes it's showing up, putting in the work, and coming back stronger next session.</p></div>
+  </section>
+</main>
+<footer class="wrap footer"><span>© <span id="year"></span> Killian Thompson · Swimmer profile</span><span>Built for progress, one length at a time 🏊‍♂️</span></footer>
+<div class="toast" id="toast"></div>
+
+<div class="modal" id="modal"><div class="modal-box"><h3 id="modalTitle">Add item</h3><form class="form" id="modalForm"></form><div class="modal-actions"><button class="btn btn-ghost" id="cancelModal" type="button">Cancel</button><button class="btn btn-primary" id="submitModal" type="button">Save item</button></div></div></div>
+<input type="file" id="importFile" accept="application/json" class="hidden">
+<script>
+const KEY='killianSwimmerSite_v1';
+const starter={
+  intro:'Chasing personal bests, building consistency, and getting faster one length at a time.',
+  tagline:'Focus. Effort. Progress.',
+  quote:"Progress isn't always a medal or a record. Sometimes it's showing up, putting in the work, and coming back stronger next session.",
+  pbs:[],
+  achievements:[{title:'The journey starts here',detail:'Add your first swimming milestone, medal, or competition result.',date:'',icon:'🌊'}],
+  galas:[]
+};
+let data=loadData(), editing=false, modalKind=null, editingIndex=null;
+function loadData(){try{return {...starter,...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch(e){return structuredClone(starter)}}
+function persist(){localStorage.setItem(KEY,JSON.stringify(data));showToast('Saved on this device ✓')}
+function showToast(t){const el=document.getElementById('toast');el.textContent=t;el.style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.style.display='none',2200)}
+function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function render(){
+ document.getElementById('pbRows').innerHTML=data.pbs.map((x,i)=>`<tr><td>${esc(x.event)}</td><td>${esc(x.course||'—')}</td><td><strong>${esc(x.time)}</strong></td><td>${esc(x.date||'—')}</td>${editing?`<td><div class="item-actions"><button class="btn btn-ghost mini" onclick="openModal('pb',${i})">Edit</button><button class="btn btn-ghost mini" onclick="removeItem('pbs',${i})">Delete</button></div></td>`:''}</tr>`).join('');
+ document.getElementById('pbEmpty').classList.toggle('hidden',data.pbs.length>0);
+ document.getElementById('achievementGrid').innerHTML=data.achievements.map((x,i)=>`<article class="card"><div style="font-size:1.8rem;margin-bottom:14px">${esc(x.icon||'🏅')}</div><h3>${esc(x.title)}</h3><p>${esc(x.detail)}</p>${x.date?`<p style="margin-top:12px"><span class="pill">${esc(x.date)}</span></p>`:''}${editing?`<div class="item-actions" style="margin-top:15px"><button class="btn btn-ghost mini" onclick="openModal('achievement',${i})">Edit</button><button class="btn btn-ghost mini" onclick="removeItem('achievements',${i})">Delete</button></div>`:''}</article>`).join('') || `<div class="card"><p>No achievements added yet — add one in edit mode.</p></div>`;
+ document.getElementById('galaGrid').innerHTML=data.galas.map((x,i)=>`<article class="card"><span class="pill">${esc(x.date||'Date TBC')}</span><h3 style="margin-top:14px">${esc(x.name)}</h3><p>${esc(x.location||'Location to be confirmed')}</p>${x.notes?`<p style="margin-top:10px">${esc(x.notes)}</p>`:''}${editing?`<div class="item-actions" style="margin-top:15px"><button class="btn btn-ghost mini" onclick="openModal('gala',${i})">Edit</button><button class="btn btn-ghost mini" onclick="removeItem('galas',${i})">Delete</button></div>`:''}</article>`).join('') || `<div class="card"><p>No galas added yet. Add your next competition when you're ready.</p></div>`;
+ document.body.classList.toggle('editing',editing);
+ document.getElementById('editBtn').textContent=editing?'✓ Editing':'✏️ Edit website';
+ document.querySelectorAll('.edit-only').forEach(el=>el.style.display=editing?'inline-flex':'none');
+ document.querySelectorAll('[data-field]').forEach(el=>{const k=el.dataset.field;if(k==='name')el.innerHTML='Killian <span>Thompson.</span>';else el.textContent=data[k]??starter[k]??'';el.contentEditable=editing&&el.dataset.editable==='true'?'true':'false'});
+}
+document.getElementById('editBtn').onclick=()=>{editing=!editing;render();if(editing)showToast('Edit mode on — click highlighted text to change it')};
+document.getElementById('saveBtn').onclick=()=>{document.querySelectorAll('[data-editable="true"]').forEach(el=>data[el.dataset.field]=el.textContent.trim());persist();editing=false;render()};
+document.querySelectorAll('[data-editable="true"]').forEach(el=>el.addEventListener('input',()=>{if(editing)data[el.dataset.field]=el.textContent.trim()}));
+document.getElementById('addPB').onclick=()=>openModal('pb');
+document.getElementById('addAchievement').onclick=()=>openModal('achievement');
+document.getElementById('addGala').onclick=()=>openModal('gala');
+function fieldsFor(kind,item={}){
+ if(kind==='pb')return [['event','Event (e.g. 100m Freestyle)','text'],['time','Time (e.g. 1:08.42)','text'],['course','Pool (25m or 50m)','text'],['date','Date achieved','text']];
+ if(kind==='achievement')return [['title','Achievement title','text'],['detail','Details','textarea'],['date','Date (optional)','text'],['icon','Emoji (e.g. 🥇)','text']];
+ return [['name','Gala / competition name','text'],['date','Date','text'],['location','Location','text'],['notes','Notes (optional)','textarea']];
+}
+function openModal(kind,index=null){
+ modalKind=kind;editingIndex=index;const item=index===null?{}:data[kind==='pb'?'pbs':kind==='achievement'?'achievements':'galas'][index];
+ document.getElementById('modalTitle').textContent=(index===null?'Add ':'Edit ')+(kind==='pb'?'personal best':kind==='achievement'?'achievement':'gala');
+ const form=document.getElementById('modalForm');
+ form.innerHTML=fieldsFor(kind,item).map(([k,label,type])=>`<label>${label}${type==='textarea'?`<textarea name="${k}">${esc(item[k]||'')}</textarea>`:`<input name="${k}" type="text" value="${esc(item[k]||'')}" ${k==='event'||k==='time'||k==='title'||k==='name'?'required':''}>`}</label>`).join('');
+ document.getElementById('modal').classList.add('open');
+}
+document.getElementById('cancelModal').onclick=()=>document.getElementById('modal').classList.remove('open');
+document.getElementById('submitModal').onclick=()=>{
+ const form=document.getElementById('modalForm');if(!form.reportValidity())return;
+ const item=Object.fromEntries(new FormData(form).entries());
+ const key=modalKind==='pb'?'pbs':modalKind==='achievement'?'achievements':'galas';
+ if(editingIndex===null)data[key].push(item);else data[key][editingIndex]=item;
+ document.getElementById('modal').classList.remove('open');persist();render();
+};
+function removeItem(key,index){if(confirm('Delete this item?')){data[key].splice(index,1);persist();render()}}
+document.getElementById('exportBtn').onclick=()=>{
+ const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='killian-swimming-backup.json';a.click();URL.revokeObjectURL(url);showToast('Backup exported ✓');
+};
+document.getElementById('year').textContent=new Date().getFullYear();
+render();
+</script>
+</body>
+</html>
